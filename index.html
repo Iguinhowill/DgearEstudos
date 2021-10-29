@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+
+    <!-- FW -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/cdd.css">
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav>
+                <div class="nav-menu">
+                    <div>
+                        <span class="nav-menu-logo">
+                            <a href="index.html">
+                                <img src="img/logo.png" alt="logo">
+                            </a>
+                        </span>
+                    </div>
+                    <div id="menu-bar">
+                        <ul>
+                            <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                            <li><a href="#text-contain"><i class="fas fa-calendar-alt"></i>Cronograma</a></li>
+                            <li><a href="#aboutus-title"><i class="fas fa-users"></i>Sobre Nós</a></li>
+                            <li><a href="#footer-container"><i class="fas fa-plus"></i></i>Seguir</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="banner-main">
+                <div>
+                    <img src="img/kant.jpg" alt="">
+                </div>
+                <div class="cite-kant">
+                    <article>
+                        <p>"O ser humano é aquilo que a educação faz dele".</p>
+                        <blockquote>
+                            <span>Immanuel Kant, filósofo prussiano.</span>
+                        </blockquote>
+                    </article>
+                </div>
+            </section>
+            <section id="text-contain">
+                <article>
+                    <h1><i class="fas fa-question-circle"></i> Como manter uma rotina de estudos</h1>
+                    <p>- O principal para manter uma rotina de estudos é a divisão dos horários de forma que não sobrecarregue o individuo, e o busca por um método de estudo(questão pessoal, de acordo com a forma de raciocínio particular) que facilite o entendimento das matérias, oque dará resultados mais evidentes, fortalecendo a vontade de continuar.</p>
+                </article>
+                <article>
+                    <h1><i class="fas fa-question-circle"></i> Motivações para estudar</h1>
+                    <p>- Além de abrir portas para diversas oportunidades no mercado de trabalho, os estudos ajudam o individuo a entender melhor o próprio mundo onde vive e proporcionar até mesmo prevenir doenças como o alzhaimer, diabetes, câncer e hipertensão
+                        (as outras questões são redundantes).</p>
+                </article>
+                <article>
+                    <h1><i class="fas fa-question-circle"></i> Monte um cronograma 😀</h1>
+                    <p>-Mantenha horários fixos.<br>
+                        -Evite distrações.<br>
+                        -Invista em diferentes métodos de estudo.<br>
+                        -Separe um tempo para revisões.<br>
+                        -Defina objetivos e metas claras.</p>
+                </article>
+            </section>
+            <section id="cng-container">
+                <div>
+                    <label for="cng">Selecione uma matéria: </label>
+                        <select id="cng">
+                            <option value="none"></option>
+                            <option value="0">Matemática</option>
+                            <option value="1">Gramática e Redação</option>
+                            <option value="2">Inglês</option>
+                            <option value="3">História</option>
+                            <option value="4">Geografia</option>
+                            <option value="5">Física</option>
+                            <option value="6">Química</option>
+                            <option value="7">Biologia</option>
+                        </select>
+                    <input type="button" value="Buscar" id="btn">
+                </div>
+                <div id="cdd-container">
+                    <article>
+                        <div id="cdd-text">
+                            <h1></h1>
+                            <span></span>
+                            <article></article>
+                            <span></span>
+                            <article class="id">
+                            </article>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section id="aboutus-title">
+                <article>
+                    <h1>Sobre nós</h1>
+                    <p>Nosso projeto foi pensado para ajudar os alunos do ensino médio em suas rotinas de estudos. O nome DGEAR foi adaptado do termo "The Gear" do ingles, que significa "A engrenagem", pois acreditamos que os estudos acadêmicos são como engrenagens que movimentam as nossas vidas, onde uma pequena engrenagem como o nosso site de estudos pode agir como uma peça fundamental para que os alunos possam atingir o seus objetivos acadêmicos.</p>
+                </article>
+            </section>
+    
+            <section id="aboutus-box">
+                <div id="aboutus-contain">
+                    <div class="avatar-contain">
+                        <div>
+                            <img src="img/avatar.png" alt="">
+                        </div>
+                        <div>
+                            <span>André do Prado</span>
+                        </div>
+                    </div>
+                    <div class="avatar-contain">
+                        <div>
+                            <img src="img/avatar.png" alt="">
+                        </div>
+                        <div>
+                            <span>Davi Bordin</span>
+                        </div>
+                    </div>
+                    <div class="avatar-contain">
+                        <div>
+                            <img src="img/avatar.png" alt="">
+                        </div>
+                        <div>
+                            <span>Geovani</span>
+                        </div>
+                    </div>
+                    <div class="avatar-contain">
+                        <div>
+                            <img src="img/avatar.png" alt="">
+                        </div>
+                        <div>
+                            <span>Igor Florense</span>
+                        </div>
+                    </div>  
+                    <div class="avatar-contain">
+                        <div>
+                            <img src="img/avatar.png" alt="">
+                        </div>
+                        <div>
+                            <span>Kaique Sparapani</span>
+                        </div>
+                    </div>
+                    <div class="avatar-contain">
+                        <div>
+                            <img src="img/avatar.png" alt="">
+                        </div>
+                        <div>
+                            <span>Kaique Leme</span>
+                        </div>
+                    </div>
+                    <div class="avatar-contain">
+                        <div>
+                            <img src="img/avatar.png" alt="">
+                        </div>
+                        <div>
+                            <span>Vitor Barbosa</span>
+                        </div>
+                    </div>
+                    <div class="avatar-contain">
+                        <div>
+                            <img src="img/avatar.png" alt="">
+                        </div>
+                        <div>
+                            <span>Vitor Manoel</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div id="footer-container">
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://descomplica.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/cronograma.js"></script>
+</body>
+</html>

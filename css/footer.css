@@ -1,0 +1,19 @@
+#footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    width: 100%;
+    padding: 25px 0;
+    box-shadow: 0px 0px 10px 1.5px #A9B1A1;
+}
+#footer-container i{
+    font-size: 1.3rem;
+}
+#footer-container a{
+    color: black;
+    transition: .2s all ease-in-out;
+}
+#footer-container a:hover{
+    opacity: 0.7;
+}
